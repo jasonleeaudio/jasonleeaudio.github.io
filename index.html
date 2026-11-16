@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jason Lee — Audio ML &amp; DSP</title>
+<meta name="description" content="Jason Lee — audio & music engineering, machine learning and DSP. Projects in MIR, source separation and embedded audio.">
+<meta property="og:title" content="Jason Lee — Audio ML & DSP">
+<meta property="og:description" content="Projects in MIR, source separation and embedded audio.">
+<meta property="og:image" content="assets/jason.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FFB13B'/%3E%3Cpath d='M7 16h3l2-6 3 12 3-9 2 5 2-2h3' stroke='%2316171B' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="transport">
+  <div class="wrap transport-row">
+    <a href="#top" class="brand">jason lee <span class="dim">/ audio ml · dsp</span></a>
+    <nav aria-label="Main">
+      <a href="#tracks">Tracks</a>
+      <a href="#mixer">Mixer</a>
+      <a href="#rack">Plugins</a>
+      <a href="#bounce" class="nav-cta">Bounce ↓</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="top" class="wrap hero">
+    <div class="hero-text">
+      <div class="mono muted">New York, NY · open to roles starting 2027</div>
+      <h1>Jason Lee</h1>
+      <div class="role accent">Audio ML &amp; DSP Engineer</div>
+      <p id="intro" class="lede"></p>
+      <div class="pills">
+        <a id="gh" class="pill">GitHub</a>
+        <a id="li" class="pill">LinkedIn</a>
+        <a id="mail1" class="pill">Email</a>
+      </div>
+    </div>
+    <div class="art-card">
+      <img id="photo" alt="Headshot of Jason Lee">
+      <div class="art-meta">
+        <div>
+          <div class="art-name">Jason Lee</div>
+          <div class="mono muted small">audio ml · dsp · mir</div>
+        </div>
+        <div class="mono dim small">NYC</div>
+      </div>
+      <div id="heroWave" class="art-wave" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <section id="tracks" class="wrap section">
+    <div class="section-head">
+      <h2>The tracks</h2>
+      <span class="mono muted">press S to solo a project ↓</span>
+    </div>
+    <div class="arrange">
+      <div class="ruler mono">
+        <div class="ruler-left">TRACK</div>
+        <div class="ruler-right"><span>1</span><span>3</span><span>5</span><span>7</span><span>9</span></div>
+      </div>
+      <div id="trackList"></div>
+    </div>
+    <div id="detail" class="detail" aria-live="polite"></div>
+  </section>
+
+  <section id="mixer" class="wrap section">
+    <div class="section-head">
+      <h2>The mixer</h2>
+      <span class="mono muted">experience + education, one channel each</span>
+    </div>
+    <div id="channels" class="mixer"></div>
+  </section>
+
+  <section id="rack" class="wrap section">
+    <div class="section-head">
+      <h2>Plugin rack</h2>
+      <span class="mono muted legend"><i style="color:#FFB13B">●</i> languages <i style="color:#FF7AA8">●</i> ML <i style="color:#3DD6C4">●</i> audio / DSP <i style="color:#C6F25E">●</i> tools</span>
+    </div>
+    <div id="plugins" class="rack"></div>
+  </section>
+
+  <section id="bounce" class="wrap section">
+    <div class="bounce">
+      <div class="bounce-text">
+        <div class="mono strong">FILE ▸ EXPORT ▸ BOUNCE TO DISK</div>
+        <div class="bounce-title">Ready to drop in 2027.</div>
+        <p>Looking for audio ML, DSP and MIR roles in NYC and beyond.</p>
+      </div>
+      <div class="pills">
+        <a id="resume" class="pill dark" download>resume_final_FINAL.pdf</a>
+        <a id="mail2" class="pill outline">Email me</a>
+      </div>
+    </div>
+    <footer class="mono">© <span id="year"></span> Jason Lee · no samples were harmed in the making of this site</footer>
+  </section>
+</main>
+
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
